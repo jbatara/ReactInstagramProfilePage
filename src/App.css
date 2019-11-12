@@ -20,3 +20,25 @@
 .App-link {
   color: #09d3ac;
 }
+
+.Header img {
+  border-radius: 50%;
+  height: 10em;
+  display: inline-block;
+  margin-right: 5em;
+}
+
+.Header span {
+  margin-left: .5em;
+  margin-right: .5em;
+}
+
+.Header {
+  padding: 5em;
+  display: flex;
+  align-items: center;
+
+}
+.Header-Img, .Header-Stats{
+  display: inline-block;
+}
